@@ -27,26 +27,27 @@
   entry:{
     bundle :'./src/index.js',
     vendor:VENDOR_LIBS
-  },
-  optimization: {
-		splitChunks: {
-			cacheGroups: {
-				commons: {
-					chunks: "initial",
-					minChunks: 2,
-					maxInitialRequests: 5, // The default limit is too small to showcase the effect
-					minSize: 0 // This is example is too small to create commons chunks
-				},
-				vendor: {
-					test: /node_modules/,
-					chunks: "initial",
-					name: "vendor",
-					priority: 10,
-					enforce: true
-				}
-			}
-		}
-	}
+  }
+      // ,
+  // optimization: {
+	// 	splitChunks: {
+	// 		cacheGroups: {
+	// 			commons: {
+	// 				chunks: "initial",
+	// 				minChunks: 2,
+	// 				maxInitialRequests: 5, // The default limit is too small to showcase the effect
+	// 				minSize: 0 // This is example is too small to create commons chunks
+	// 			},
+	// 			vendor: {
+	// 				test: /node_modules/,
+	// 				chunks: "initial",
+	// 				name: "vendor",
+	// 				priority: 10,
+	// 				enforce: true
+	// 			}
+	// 		}
+	// 	}
+	// }
     ,
   output:{
       path:path.join(__dirname,'dist'),
@@ -71,18 +72,18 @@
         loader:"file-loader"
        
        },
-      //  {
-      //   test: /\.(js|jsx)$/,
-      //   include: path.appSrc,
-      //   loader: require.resolve('babel-loader'),
-      //   options: {
-      //     // This is a feature of `babel-loader` for webpack (not Babel itself).
-      //     // It enables caching results in ./node_modules/.cache/babel-loader/
-      //     // directory for faster rebuilds.
-      //     cacheDirectory: true,
-      //     plugins: ['react-hot-loader/babel'],
-      //   },
-      // }
+       {
+        test: /\.(js|jsx)$/,
+        include: path.appSrc,
+        loader: require.resolve('babel-loader'),
+        options: {
+          // This is a feature of `babel-loader` for webpack (not Babel itself).
+          // It enables caching results in ./node_modules/.cache/babel-loader/
+          // directory for faster rebuilds.
+          cacheDirectory: true,
+          plugins: ['react-hot-loader/babel'],
+        },
+      }
  // , babelrc
     // "plugins": ["react-hot-loader/babel"]
 
