@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b111995-0e20-40d5-9744-2bc825ef28dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banner_web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/public/fonts/ThuphapCongthuy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/public/fonts/ThuphapXuan.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/FrameCard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/ReactJS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/equipment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/giaitich12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/giang_vien.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/hoa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/ly12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/patternWood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/people8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/pp_hoc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/images/support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/styles/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/assets/styles/sass/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/ReturnUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/account/account.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/exercise/exercise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/CardInfor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/CardNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Guide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Introduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Subject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/home/Teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/room/room.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/components/subject/AllSubject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/assets/styles/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="1b111995-0e20-40d5-9744-2bc825ef28dd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,15 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Card.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Card.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-951">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/bin/www.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -425,16 +370,15 @@
       <workItem from="1534469890825" duration="32078000" />
       <workItem from="1534526055591" duration="1240000" />
       <workItem from="1534563650787" duration="14447000" />
-      <workItem from="1534590080269" duration="3822000" />
+      <workItem from="1534590080269" duration="4099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78202000" />
+    <option name="totallyTimeSpent" value="78479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,10 +390,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3294271" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3294271" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17203514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17203514" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -572,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/bin/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -820,8 +757,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
         </state>
       </provider>
     </entry>
