@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b111995-0e20-40d5-9744-2bc825ef28dd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/server/media/ReactJS.ecd5a58a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/giaitich12.daa01b4d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/header.b0ad4226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/hoa.9575f447.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/ly12.cd05f3f2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/patternWood.d7b1453f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people1.d517ffc9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people2.63ff3072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people3.acf2a822.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people4.c5d0d30d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people5.1138d591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people6.65008487.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people7.ca9320e4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/media/people8.150450ea.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +84,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="351">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -198,20 +212,14 @@
             <path>
               <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,6 +239,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\Stream\server" />
       <recent name="F:\github\Stream\client-app\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -317,12 +326,12 @@
       <workItem from="1534469890825" duration="32078000" />
       <workItem from="1534526055591" duration="1240000" />
       <workItem from="1534563650787" duration="14447000" />
-      <workItem from="1534590080269" duration="10991000" />
+      <workItem from="1534590080269" duration="11486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85371000" />
+    <option name="totallyTimeSpent" value="85866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -338,10 +347,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40104166" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40104166" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17203514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17203514" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -717,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="351">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
