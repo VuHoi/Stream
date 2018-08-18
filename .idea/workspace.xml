@@ -2,21 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b111995-0e20-40d5-9744-2bc825ef28dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/media/ReactJS.ecd5a58a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/giaitich12.daa01b4d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/header.b0ad4226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/hoa.9575f447.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/ly12.cd05f3f2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/patternWood.d7b1453f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people1.d517ffc9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people2.63ff3072.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people3.acf2a822.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people4.c5d0d30d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people5.1138d591.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people6.65008487.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people7.ca9320e4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/media/people8.150450ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/fonts/ThuphapCongthuy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/fonts/ThuphapXuan.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/static/css/main.b825e27d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/static/css/main.b825e27d.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/static/js/main.0a43e28e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/static/js/main.0a43e28e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/ReactJS.ecd5a58a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/ReactJS.ecd5a58a.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/ReactJS.ecd5a58a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/giaitich12.daa01b4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/giaitich12.daa01b4d.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/giaitich12.daa01b4d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/header.b0ad4226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/header.b0ad4226.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/header.b0ad4226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/hoa.9575f447.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/hoa.9575f447.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/hoa.9575f447.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/ly12.cd05f3f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/ly12.cd05f3f2.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/ly12.cd05f3f2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/patternWood.d7b1453f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/patternWood.d7b1453f.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/patternWood.d7b1453f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people1.d517ffc9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people1.d517ffc9.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people1.d517ffc9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people2.63ff3072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people2.63ff3072.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people2.63ff3072.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people3.acf2a822.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people3.acf2a822.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people3.acf2a822.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people4.c5d0d30d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people4.c5d0d30d.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people4.c5d0d30d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people5.1138d591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people5.1138d591.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people5.1138d591.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people6.65008487.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people6.65008487.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people6.65008487.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people7.ca9320e4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people7.ca9320e4.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people7.ca9320e4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people8.150450ea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/media/people8.150450ea.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/media/people8.150450ea.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,8 +109,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="243">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -206,19 +231,6 @@
             <path>
               <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream" type="462c0819:PsiDirectoryNode" />
-              <item name="client-app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream" type="462c0819:PsiDirectoryNode" />
-              <item name="client-app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -243,11 +255,11 @@
       <recent name="F:\github\Stream\client-app\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\github\Stream\server" />
       <recent name="F:\github\Stream\client-app\src\components\home" />
       <recent name="F:\github\Stream\client-app\src\components" />
       <recent name="F:\github\Stream\client-app\src\components\subject" />
       <recent name="F:\github\Stream\client-app\public" />
-      <recent name="F:\github\Stream\client-app\src\assets\styles\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,12 +338,12 @@
       <workItem from="1534469890825" duration="32078000" />
       <workItem from="1534526055591" duration="1240000" />
       <workItem from="1534563650787" duration="14447000" />
-      <workItem from="1534590080269" duration="11486000" />
+      <workItem from="1534590080269" duration="11777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85866000" />
+    <option name="totallyTimeSpent" value="86157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -644,10 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/build/manifest.json">
+    <entry file="file://$PROJECT_DIR$/server/build/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/build/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/server/build/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
@@ -703,14 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/build/static/js/main.0a43e28e.js">
+    <entry file="file://$PROJECT_DIR$/server/build/static/js/main.0a43e28e.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-98995">
           <caret column="828" lean-forward="true" selection-start-column="828" selection-end-column="828" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/build/index.html">
+    <entry file="file://$PROJECT_DIR$/server/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="644" lean-forward="true" selection-start-column="644" selection-end-column="644" />
@@ -726,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="243">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>

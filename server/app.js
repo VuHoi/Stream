@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 //     app.use(express.static(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)+ '/client-app/build')));
 // }
 
-app.use(express.static(path.join(__dirname,'media')));
+app.use(express.static(path.join(__dirname,'build')));
 
 
 
@@ -34,7 +34,7 @@ homeController(app);
 
 
 app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)+'/client-app/build/index.html'));
+    res.sendFile(path.join(__dirname+'build/index.html'));
 
 });
 
