@@ -8,7 +8,7 @@ var homeController =require('./controllers/controller/homeController')
 
 var app = express();
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("../client/build"));
+  app.use(express.static("../client-app/build"));
 }
 // view engine setup
 
@@ -26,8 +26,10 @@ app.use((req, res, next) => {
 });
 userController(app);
 homeController(app);
+
+
 app.get("*", function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  res.sendFile(path.join(__dirname, "../client-app/build/index.html"));
 });
 
   
