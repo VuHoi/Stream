@@ -11,7 +11,7 @@ var app = express();
 app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'pug');
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, 'client-app/build')));
+    app.use(express.static(path.join(__dirname.toString().slice(0,__dirname.toString().length-7), 'client-app/build')));
 }
 
 
@@ -33,7 +33,7 @@ homeController(app);
 
 app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)+'/client-app/build/index.html'));
-    console.log(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)))
+
 });
 
   
