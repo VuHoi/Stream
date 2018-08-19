@@ -3,16 +3,34 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+
+//Router
 var userController =require('./controllers/controller/userController')
 var homeController =require('./controllers/controller/homeController')
 
+
+
+//config
+var configCommon = require('./controllers/models/db');
+var validateRequest = require('./middleware/validateRequest');
+var configRoute =require('./middleware/configRouter');
+
+//mongose db
+var mongoose = require('mongoose');
+mongoose.connect(configCommon.url,{ useNewUrlParser: true });
+var session = require('express-session');
+var MongoStore = require('connect-mongo')(session);
+var db = mongoose.connection;
+
+
+
 var app = express();
 
-
-// if (process.env.NODE_ENV === "production") {
+app.set('superSecret', configCommon.secret);
+if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname,'build')));
     // app.use(express.static(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)+ '/client-app/build')));
-// }
+}
 
 
 
@@ -22,13 +40,9 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-  res.setHeader('Access-Control-Allow-Credentials', true);
-  next();
-});
+
+app.all('/*', configRoute);
+app.all('/api/*', [validateRequest]);
 userController(app);
 homeController(app);
 
@@ -54,5 +68,15 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.use(session({
+    secret: 'wordhard',
+    resave: true,
+    saveUninitialized: false,
+    cookie: {  },
+    store: new MongoStore({
+        mongooseConnection: db
+    })
+}));
 
 module.exports = app;
