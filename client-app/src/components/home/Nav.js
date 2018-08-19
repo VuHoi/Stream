@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Login from './Login';
+import ModalAccount from './Modal';
 import {
     Collapse,
     Navbar,
@@ -24,7 +24,8 @@ class NavApp extends Component {
         this.toggleModal =this.toggleModal.bind(this);
         this.state = {
             isOpen: false,
-            modal: false
+            modal: false,
+            status:'login'
         };
     }
     toggle() {
@@ -43,8 +44,16 @@ class NavApp extends Component {
         this.setState({
             modal: !this.state.modal
         });
+
     }
 
+
+    SelectedMenu(status) {
+        this.setState({
+            modal: !this.state.modal,
+            status
+        });
+    }
     render() {
         return (
             <div>
@@ -73,10 +82,10 @@ class NavApp extends Component {
                                         Tài khoản
                                     </DropdownToggle>
                                     <DropdownMenu right>
-                                        <DropdownItem onClick={this.toggleModal}>
+                                        <DropdownItem onClick={()=>this.SelectedMenu('Đăng nhập')}>
                                             Đăng nhập
                                         </DropdownItem>
-                                        <DropdownItem>
+                                        <DropdownItem onClick={()=>this.SelectedMenu("Đăng kí")}>
                                             Đăng kí
                                         </DropdownItem>
                                         <DropdownItem divider />
@@ -90,7 +99,7 @@ class NavApp extends Component {
                     </Collapse>
                 </Navbar>
 
-                <Login modal={this.state.modal} toggleModal={this.toggleModal}/>
+                <ModalAccount status={this.state.status} modal={this.state.modal} toggleModal={this.toggleModal}/>
 
             </div>
         );
