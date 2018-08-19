@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Login from './Login';
 import {
     Collapse,
     Navbar,
@@ -20,8 +21,10 @@ class NavApp extends Component {
         super(props);
 
         this.toggle = this.toggle.bind(this);
+        this.toggleModal =this.toggleModal.bind(this);
         this.state = {
-            isOpen: false
+            isOpen: false,
+            modal: false
         };
     }
     toggle() {
@@ -30,11 +33,18 @@ class NavApp extends Component {
         });
     }
     scrollToBottom() {
-      return  scroll.scrollToBottom();
+        return  scroll.scrollToBottom();
     }
     scrollToTop() {
         scroll.scrollToTop();
     }
+
+    toggleModal() {
+        this.setState({
+            modal: !this.state.modal
+        });
+    }
+
     render() {
         return (
             <div>
@@ -49,7 +59,7 @@ class NavApp extends Component {
                             </NavItem>
                             <NavItem>
                                 <Link className="p-3"  activeClass="active" to="subject" spy={true} smooth={true} offset={50} duration={500}>
-                               Chủ đề </Link>
+                                    Chủ đề </Link>
                             </NavItem>
                             <NavItem>
                                 <Link className="p-3"  activeClass="active" to="news" spy={true} smooth={true} offset={50} duration={500}>Tin tức</Link>
@@ -57,28 +67,31 @@ class NavApp extends Component {
                             <NavItem>
                                 <Link className="p-3 "   activeClass="active" to="guide" spy={true} smooth={true} offset={50} duration={500}>Hướng dẫn</Link>
                             </NavItem>
-                            <div style={{marginTop:'-8px'}}>
-                            <UncontrolledDropdown nav inNavbar  >
-                                <DropdownToggle nav >
-                                    Tài khoản
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                       Đăng nhập
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                       Đăng kí
-                                    </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Đăng xuất
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <div style={{marginTop:'-8px'}} >
+                                <UncontrolledDropdown nav inNavbar  >
+                                    <DropdownToggle nav >
+                                        Tài khoản
+                                    </DropdownToggle>
+                                    <DropdownMenu right>
+                                        <DropdownItem onClick={this.toggleModal}>
+                                            Đăng nhập
+                                        </DropdownItem>
+                                        <DropdownItem>
+                                            Đăng kí
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>
+                                            Đăng xuất
+                                        </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
                             </div>
                         </Nav>
                     </Collapse>
                 </Navbar>
+
+                <Login modal={this.state.modal} toggleModal={this.toggleModal}/>
+
             </div>
         );
     }
