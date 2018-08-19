@@ -39,7 +39,7 @@ module.exports = function(app)
     });
 
 //http post
-    app.post('/user',(req,res)=>{
+    app.post('/register',(req,res)=>{
         var User=req.body;
         bcrypt.hash(User.password, saltRounds, function(err, hash) {
             User.password = hash;
@@ -124,7 +124,7 @@ module.exports = function(app)
                 });
 
 
-                console.log(token)
+
 
                 res.json({
                     success: true,

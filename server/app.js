@@ -21,21 +21,12 @@ mongoose.connect(configCommon.url,{ useNewUrlParser: true });
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 var db = mongoose.connection;
-
-
-
 var app = express();
-
 app.set('superSecret', configCommon.secret);
-if (process.env.NODE_ENV === "production") {
+// if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname,'build')));
     // app.use(express.static(path.join(__dirname.toString().slice(0,__dirname.toString().length-7)+ '/client-app/build')));
-}
-
-
-
-
-
+// }
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
