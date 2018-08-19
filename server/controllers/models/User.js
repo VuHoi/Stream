@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 //     body: String,
 //     date: Date
 //    });
-   
+
 // const User = mongoose.model('BlogPost',BlogPost);
 module.exports= mongoose.model('User',{
     // author: String,
