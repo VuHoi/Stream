@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1b111995-0e20-40d5-9744-2bc825ef28dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/components/home/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/components/home/Modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/controller/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/models/user.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/controllers/models/chat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="337">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -36,8 +28,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/controllers/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="108">
+              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -45,8 +37,8 @@
       <file leaf-file-name="userController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/controllers/controller/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="-2241">
+              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -54,8 +46,8 @@
       <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="24" column="10" selection-start-line="22" selection-start-column="22" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="567">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,8 +55,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/home/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="270">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -75,8 +67,8 @@
       <file leaf-file-name="Nav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="87" column="93" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
+            <state relative-caret-position="-230">
+              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -84,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Modal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="3186">
+              <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -99,7 +91,7 @@
       <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/node_modules/bootstrap/dist/js/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="66339">
               <caret line="2461" column="4" selection-start-line="2461" selection-start-column="4" selection-end-line="2461" selection-end-column="4" />
             </state>
           </provider>
@@ -108,7 +100,7 @@
       <file leaf-file-name="News.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-app/src/components/home/News.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="999">
               <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -135,6 +127,8 @@
       <find>db</find>
       <find>authenticate</find>
       <find>[</find>
+      <find>username</find>
+      <find>userName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,16 +178,16 @@
         <option value="$PROJECT_DIR$/server/middleware/configRouter.js" />
         <option value="$PROJECT_DIR$/client-app/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/server/controllers/models/User.js" />
-        <option value="$PROJECT_DIR$/server/controllers/models/user.js" />
         <option value="$PROJECT_DIR$/server/controllers/models/subject.js" />
         <option value="$PROJECT_DIR$/server/controllers/models/lesson .js" />
         <option value="$PROJECT_DIR$/server/controllers/models/chat.js" />
         <option value="$PROJECT_DIR$/client-app/src/components/home/login.js" />
         <option value="$PROJECT_DIR$/client-app/src/components/home/Login.js" />
         <option value="$PROJECT_DIR$/client-app/src/components/home/Nav.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/controllers/models/user.js" />
         <option value="$PROJECT_DIR$/server/controllers/controller/userController.js" />
         <option value="$PROJECT_DIR$/client-app/src/components/home/Modal.js" />
-        <option value="$PROJECT_DIR$/server/app.js" />
       </list>
     </option>
   </component>
@@ -227,9 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +232,27 @@
               <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream" type="462c0819:PsiDirectoryNode" />
               <item name="client-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stream" type="462c0819:PsiDirectoryNode" />
+              <item name="client-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stream" type="462c0819:PsiDirectoryNode" />
+              <item name="client-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stream" type="462c0819:PsiDirectoryNode" />
+              <item name="client-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +289,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,12 +393,13 @@
       <workItem from="1534563650787" duration="14447000" />
       <workItem from="1534590080269" duration="12223000" />
       <workItem from="1534644653016" duration="19319000" />
-      <workItem from="1534681285702" duration="11261000" />
+      <workItem from="1534681285702" duration="11449000" />
+      <workItem from="1534773357865" duration="13568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117183000" />
+    <option name="totallyTimeSpent" value="130939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -426,13 +442,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-app/src/assets/styles/css/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -608,13 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/build/static/js/main.0a43e28e.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98995">
-          <caret column="828" lean-forward="true" selection-start-column="828" selection-end-column="828" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/build/static/js/main.0a43e28e.js" />
     <entry file="file://$PROJECT_DIR$/server/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -692,19 +695,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-app/src/components/home/News.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="999">
           <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -714,22 +707,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client-app/node_modules/bootstrap/dist/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="66339">
           <caret line="2461" column="4" selection-start-line="2461" selection-start-column="4" selection-end-line="2461" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/models/user.js">
+    <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="337">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Nav.js">
+    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="87" column="93" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
+        <state relative-caret-position="270">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -738,32 +731,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client-app/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="24" column="10" selection-start-line="22" selection-start-column="22" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="567">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Modal.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="178">
+          <caret line="3090" column="8" selection-start-line="3090" selection-start-column="8" selection-end-line="3090" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/controller/userController.js">
+    <entry file="file://$PROJECT_DIR$/server/controllers/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="108">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
+    <entry file="file://$PROJECT_DIR$/server/controllers/controller/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="-2241">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-app/src/components/home/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

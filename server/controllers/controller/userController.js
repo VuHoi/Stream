@@ -45,16 +45,9 @@ module.exports = function(app)
             User.password = hash;
         });
         setTimeout(()=>{
-            user.create(User) .then(() => {
-                res.json(User);
-                if (error) {
-                    return json(error);
-                } else {
-
+            user.create(User).then(() => {
                     //    req.cookies.userId = user._id;
-                    res.json("Ok");
-                }
-
+                    res.json({status:200});
             })
                 .catch((err) => {
                     res.json(err)
@@ -105,9 +98,11 @@ module.exports = function(app)
         var User=req.body;
         user.authenticate(User.email, User.password, function (error, user) {
             if (error || !user) {
-                var err = new Error('Wrong email or password.');
-                err.status = 401;
-                res.json(err);
+
+                res.json({
+                    title:'Wrong email or password.',
+                    status:401
+                });
                 // return next(err);
             } else {
                 const payload = {
@@ -122,13 +117,8 @@ module.exports = function(app)
                 var token = jwt.sign(payload, app.get('superSecret'), {
                     expiresIn : "2 days"
                 });
-
-
-
-
                 res.json({
-                    success: true,
-
+                    status: 200,
                     token: token
                 });
 
