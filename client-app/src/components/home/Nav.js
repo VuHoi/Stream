@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ModalAccount from './Modal';
+// import ModalAccount from './Modal';
+// import {NavLink} from 'react-router-dom'
 import {
     Collapse,
     Navbar,
@@ -21,11 +22,11 @@ class NavApp extends Component {
         super(props);
 
         this.toggle = this.toggle.bind(this);
-        this.toggleModal =this.toggleModal.bind(this);
+        // this.toggleModal =this.toggleModal.bind(this);
         this.state = {
             isOpen: false,
-            modal: false,
-            status:'login'
+            // modal: false,
+            // status:'login'
         };
     }
     toggle() {
@@ -40,20 +41,20 @@ class NavApp extends Component {
         scroll.scrollToTop();
     }
 
-    toggleModal() {
-        this.setState({
-            modal: !this.state.modal
-        });
+    // toggleModal() {
+    //     this.setState({
+    //         modal: !this.state.modal
+    //     });
+    //
+    // }
 
-    }
 
-
-    SelectedMenu(status) {
-        this.setState({
-            modal: !this.state.modal,
-            status
-        });
-    }
+    // SelectedMenu(status) {
+    //     this.setState({
+    //         modal: !this.state.modal,
+    //         status
+    //     });
+    // }
     render() {
         return (
             <div>
@@ -76,20 +77,21 @@ class NavApp extends Component {
                             <NavItem>
                                 <Link className="p-3 "   activeClass="active" to="guide" spy={true} smooth={true} offset={50} duration={500}>Hướng dẫn</Link>
                             </NavItem>
+                            {/*onClick={()=>this.SelectedMenu('Đăng nhập')}*/}
                             <div style={{marginTop:'-8px'}} >
                                 <UncontrolledDropdown nav inNavbar  >
                                     <DropdownToggle nav >
                                         Tài khoản
                                     </DropdownToggle>
                                     <DropdownMenu right>
-                                        <DropdownItem onClick={()=>this.SelectedMenu('Đăng nhập')}>
-                                            Đăng nhập
+                                        <DropdownItem  href="/login" >
+                                           Đăng nhập
                                         </DropdownItem>
-                                        <DropdownItem onClick={()=>this.SelectedMenu("Đăng kí")}>
+                                        <DropdownItem href="/register">
                                             Đăng kí
                                         </DropdownItem>
                                         <DropdownItem divider />
-                                        <DropdownItem>
+                                        <DropdownItem href="/">
                                             Đăng xuất
                                         </DropdownItem>
                                     </DropdownMenu>
@@ -99,7 +101,7 @@ class NavApp extends Component {
                     </Collapse>
                 </Navbar>
 
-                <ModalAccount status={this.state.status} modal={this.state.modal} toggleModal={this.toggleModal}/>
+                {/*<ModalAccount status={this.state.status} modal={this.state.modal} toggleModal={this.toggleModal}/>*/}
 
             </div>
         );
